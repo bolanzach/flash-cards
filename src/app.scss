@@ -1,7 +1,13 @@
 @import 'cards/components/header/header.scss';
+@import 'theme.scss';
 
 body {
   margin: 0;
+  background-color: $background-color;
+
+  a {
+    text-decoration: none;
+  }
 
   ul {
     margin: 0;
@@ -11,6 +17,7 @@ body {
   .content {
     margin: 0 auto;
     max-width: 780px;
+    padding: 4px;
   }
 
 }
