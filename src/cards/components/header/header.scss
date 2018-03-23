@@ -1,0 +1,21 @@
+.header {
+  background-color: red;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      text-decoration: none;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &.nav {
+    height: 50px;
+  }
+
+}
