@@ -6,7 +6,11 @@ body {
   background-color: $background-color;
 
   a {
+    color: $primary-font-color;
     text-decoration: none;
+    &:visited {
+      color: $primary-font-color;
+    }
   }
 
   ul {
