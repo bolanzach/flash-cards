@@ -11,7 +11,7 @@ export class HomeComponent extends React.Component {
           <HomeCardComponent title={'Welcome to the GRE Flash Cards app!'}/>
         </div>
         <div className={'pure-u-1 pure-u-sm-1-2'}>
-          <HomeCardComponent title={'All Cards'} path={'/'}/>
+          <HomeCardComponent title={'All Cards'} path={'all'}/>
         </div>
         <div className={'pure-u-1 pure-u-sm-1-2'}>
           <HomeCardComponent title={'Math Cards'} path={'math'}/>
